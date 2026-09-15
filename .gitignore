@@ -1,0 +1,13 @@
+# Data files
+*.csv
+*.nc
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+
+# OS junk
+.DS_Store
