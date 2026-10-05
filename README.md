@@ -31,8 +31,8 @@ The overall goal is to understand how different regression approaches behave und
 ├── lukas_fysstk.yaml
 ├── README.md
 ├── project_1/
-│   ├── Project1.ipynb          # main project notebook
-│   ├── wip_project1.ipynb     # working notebook used during development
+│   ├── Project1_tasks.ipynb          # main project notebook
+│   ├── results_project1.ipynb     # working notebook used during development
 │   ├── playground.ipynb       # exploratory experiments
 │   ├── *.png                  # generated figures and result plots
 │   └── Project1.pdf           # project report / compiled output
@@ -74,7 +74,7 @@ The environment includes the libraries used for the analysis, including Python, 
 
 Open the notebooks in VS Code or Jupyter and run the cells in order. The main analysis notebook is:
 
-- `project_1/Project1.ipynb`
+- `project_1/results_project1.ipynb`
 
 The working notebook and playground notebook are also included for experiments and intermediate calculations.
 
