@@ -11,3 +11,6 @@
 
 # OS junk
 .DS_Store
+
+# files
+dumping_code.ipynb
