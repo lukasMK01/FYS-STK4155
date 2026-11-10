@@ -1,6 +1,7 @@
 # Data files
 *.csv
 *.nc
+*.npz
 
 # Images
 *.png
@@ -13,4 +14,4 @@
 .DS_Store
 
 # files
-dumping_code.ipynb
+./dumping_code.ipynb

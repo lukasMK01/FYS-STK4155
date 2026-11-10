@@ -7,19 +7,24 @@ has its own folder and README with details about its aims, files, and results:
 - [Project 1](project_1/README.md): regression, resampling methods, and gradient descent.
 - [Project 2](project_2/README_proj2.md): neural networks for regression and classification.
 
-## Shared Python environment
+## Requirements
 
-The projects use the Conda environment defined in
-[`lukas_fysstk.yaml`](lukas_fysstk.yaml). Create and activate it with:
+The Conda environment in [`lukas_fysstk.yaml`](lukas_fysstk.yaml) uses Python
+3.14 and includes Jupyter/IPython, NumPy, Matplotlib, scikit-learn, JAX/JAXlib,
+SciPy, and supporting data and image packages. These cover the imports in the
+Project 2 notebook header: NumPy, Matplotlib, scikit-learn, and JAX. `warnings`
+is part of Python's standard library, and the other imports in the header come
+from the project's own Python modules.
+
+Create and activate the environment with:
 
 ```bash
 conda env create -f lukas_fysstk.yaml
 conda activate lmk_ML
 ```
 
-The environment includes Python, Jupyter/IPython, NumPy, Matplotlib,
-scikit-learn, and JAX. Open the relevant notebook in Jupyter or VS Code and
-run its cells as described in that project's README.
+Open the relevant notebook in Jupyter or VS Code and run its cells as
+described in that project's README.
 
 ## Repository contents
 
